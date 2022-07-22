@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 echo -n "Enter the first number : ";
-read -r firstNumber;
+read firstNumber;
 echo -n "Enter the second number : ";
-read -r secondNumber;
+read secondNumber;
 
 echo $firstNumber + $secondNumber = $((firstNumber+secondNumber));
